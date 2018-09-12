@@ -17,7 +17,7 @@ public class seleniumTest {
     @Before
    public void  setup()
     {
-        WebDriver driver = new FirefoxDriver();           // on crée un drver qui teste l'ouverture d'une page web
+        driver = new FirefoxDriver();           // on crée un drver qui teste l'ouverture d'une page web
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://www.google.com");             // on choisi d'afficher par exemple google.com
     }
